@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on CFD Research Group</title>
+    <link>https://rudhkul.github.io/sim/</link>
+    <description>Recent content in Home on CFD Research Group</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://rudhkul.github.io/sim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024</title>
+      <link>https://rudhkul.github.io/sim/publications/2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rudhkul.github.io/sim/publications/2024/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kulkarni, A.&lt;/strong&gt;, et al. &lt;em&gt;High-order CFD methods&lt;/em&gt;. Journal of Fluids.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kulkarni, A.&lt;/strong&gt;, et al. &lt;em&gt;LBM for porous flows&lt;/em&gt;. Phys. Fluids.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Dr. Anirudh Kulkarni</title>
+      <link>https://rudhkul.github.io/sim/people/anirudh-kulkarni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rudhkul.github.io/sim/people/anirudh-kulkarni/</guid>
+      <description>&lt;p&gt;Assistant Professor working on CFD and computational mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Immersed Boundary Methods</title>
+      <link>https://rudhkul.github.io/sim/research/immersed-boundary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rudhkul.github.io/sim/research/immersed-boundary/</guid>
+      <description>Numerical methods for complex moving geometries</description>
+    </item>
+  </channel>
+</rss>

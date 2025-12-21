@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CFD Research Group</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+  <header class="site-header">
+  <div class="nav">
+    <span class="site-title">CFD Research Group</span>
+
+    <nav class="menu">
+      <a href="../">Home</a>
+      <a href="../research/">Research</a>
+      <a href="../people/">People</a>
+      <a href="../publications/">Publications</a>
+      <a href="../contact/">Contact</a>
+    </nav>
+
+    <button class="toggle" onclick="toggleTheme()">☀ / 🌙</button>
+  </div>
+</header>
+
+
+  <main>
+    
+<section class="section">
+  <h1>Publications</h1>
+  <p>Selected journal and conference publications.</p>
+
+</section>
+
+
+<section class="section">
+  <ul>
+    
+      <li>
+        <a href="../publications/2024/">2024</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+  </main>
+  <footer class="site-footer">
+  <p>© 2025 CFD Research Group</p>
+</footer>
+
+<script>
+function toggleTheme() {
+  const root = document.documentElement;
+  const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+  root.setAttribute("data-theme", next);
+  localStorage.setItem("theme", next);
+}
+
+(function () {
+  const saved = localStorage.getItem("theme");
+  if (saved) {
+    document.documentElement.setAttribute("data-theme", saved);
+  }
+})();
+</script>
+
+
+<script>
+window.addEventListener("scroll", () => {
+  const h = document.querySelector(".site-header");
+  if (window.scrollY > 40) h.classList.add("shrink");
+  else h.classList.remove("shrink");
+});
+</script>
+
+</body>
+</html>
+
